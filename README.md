@@ -80,8 +80,6 @@ The puzzles used in this game are sourced from the original `wafflegame.net`.
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
-
 **Game Start:**
 ![A screenshot of the selecting of the Waffle game board.](./screenshots/select.png)
 
