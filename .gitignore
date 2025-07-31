@@ -1,0 +1,7 @@
+# Compiled output directories
+/target/
+/out/
+
+# IDE settings files
+.idea/
+*.iml
