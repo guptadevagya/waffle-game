@@ -80,8 +80,13 @@ The puzzles used in this game are sourced from the original `wafflegame.net`.
 
 ## 📸 Screenshots
 
-_(Add your screenshots here)_
+## 📸 Screenshots
+
+**Game Start:**
+![A screenshot of the selecting of the Waffle game board.](./screenshots/select.png)
 
 **Game in Progress:**
+![A screenshot of the main Waffle game board with letters in various colored tiles.](./screenshots/game.png)
 
 **Winning State:**
+![A screenshot showing the 'Congratulations!' pop-up after successfully solving the puzzle.](./screenshots/win.png)

@@ -1,6 +1,7 @@
 # Compiled output directories
 /target/
 /out/
+.vscode/
 
 # IDE settings files
 .idea/
