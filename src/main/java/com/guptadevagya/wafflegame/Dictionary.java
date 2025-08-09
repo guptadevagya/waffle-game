@@ -51,9 +51,9 @@ final class Dictionary {
             Map<Integer, List<String>> map = new HashMap<>(Math.max(32, words.size() / 2));
             for (String w : words) {
                 int k = key(w.charAt(0), w.charAt(2), w.charAt(4));
-                map.computeIfAbsent(k, ignoredKey -> new ArrayList<>()).add(w);
+                map.computeIfAbsent(k, _ -> new ArrayList<>()).add(w);
             }
-            map.replaceAll((ignoredKey, v) -> Collections.unmodifiableList(v));
+            map.replaceAll((_, v) -> Collections.unmodifiableList(v));
             return Collections.unmodifiableMap(map);
         }
 
