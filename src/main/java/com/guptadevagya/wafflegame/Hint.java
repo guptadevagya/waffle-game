@@ -1,6 +1,6 @@
 package com.guptadevagya.wafflegame;
 
-// this defines the possible states for each letter tile in the game
+// possible states for each tile
 public enum Hint {
     CORRECT,
     WRONG_POSITION,
